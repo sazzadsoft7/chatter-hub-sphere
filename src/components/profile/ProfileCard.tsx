@@ -15,10 +15,10 @@ const ProfileCard = ({ compact = false }: ProfileCardProps) => {
         <div className="flex flex-col items-center text-center">
           <Avatar className={compact ? "h-16 w-16" : "h-24 w-24"}>
             <AvatarImage src="/placeholder.svg" />
-            <AvatarFallback>JD</AvatarFallback>
+            <AvatarFallback>SA</AvatarFallback>
           </Avatar>
           <h3 className={`font-bold ${compact ? "mt-2 text-lg" : "mt-4 text-2xl"}`}>John Doe</h3>
-          {!compact && <p className="text-social-darkGray mt-1">@johndoe</p>}
+          {!compact && <p className="text-social-darkGray mt-1">@sazzadali</p>}
           
           {!compact && (
             <>
